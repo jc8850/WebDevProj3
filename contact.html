@@ -1,0 +1,92 @@
+<!-------w---------
+
+    Project 3
+    Name: Jan Cyruss Naniong
+    Date: 4/24/21
+    Description:
+
+------------------>
+<!DOCTYPE html>
+<html>
+<head>
+<title>JC's Gunpla - Contact</title>
+<link rel = "stylesheet" type = "text/css" href = "p3styles.css" />
+<script src="validate.js"></script>
+<meta charset="utf-8"/>
+</head>
+<body>
+
+<main>
+
+<header>
+
+<div class="banner">
+<img src = "images/lupusBanner.jpg" alt = "Barbatos Lupus banner" />
+<h1>JC's Gunpla</h1>
+<h3>Building an army of tiny giant robots.</h3>
+</div>
+</header>
+
+<div class="navbar">
+<nav>
+<ul>
+	<li><a href = "index.html">HOME</a></li>
+	<li><a href = "gallery.html">GALLERY</a></li>
+	<li><a href = "#">CONTACT</a></li>
+</ul>
+</nav>
+</div>
+
+<section>
+	<div class="sectionhead">
+	<h1>Contact</h1>
+	</div>
+
+	<div class="sectionmain">
+	<h3>Any Questions or comments? Ask them here!</h3>
+	
+	<fieldset id="contactInfo">
+		<form id="contactForm" method="post" action="index.html" >
+					<ul>
+						<li>
+							<label for="name">Name:</label>
+							<input type="text" autofocus id="name" name="name">
+						</li>
+						<li> 
+							<div class="error" id="name_error">*Please enter a name</div>
+						</li>
+						<li>
+							<label for="email">Email:</label>
+							<input type="text" id="email" name="email">
+						</li>
+						<li> 
+							<div class="error" id="email_error">*Please enter a email.</div>
+							<div class="error" id="emailformat_error">*Invalid email.</div>
+						</li>
+						<li>
+							<label  for="message">Message:</label>
+							<textarea id="message" name="message" rows="5" cols="30"></textarea>
+						</li>
+						<li> 
+							<div class="error" id="message_error">*Please enter a message.</div>
+						</li>
+					</ul>
+					<footer>
+						<button id="signButton" type="submit">Submit</button>
+						<button id="resetButton" type="reset">Reset</button>	
+					</footer>
+				</form>
+			</fieldset>
+	</div>
+</section>
+
+<footer>
+	<p>
+	<a href = "index.html">Home</a> | <a href = "gallery.html">Gallery</a> | <a href = "#">Contact</a><br/>Created by Jan Cyruss Naniong</p>
+</footer>
+</main>
+
+
+
+</body>
+</html>
